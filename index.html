@@ -10,7 +10,6 @@
 	
 	<link rel="shortcut icon" href="images/favi.ico">
     
-	<!-- CSS -->
 	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 	<link href="css/flexslider.css" rel="stylesheet" type="text/css" />
 	<link href="css/prettyPhoto.css" rel="stylesheet" type="text/css" />
@@ -18,11 +17,9 @@
     <link href="css/owl.carousel.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet" type="text/css" />
     
-	<!-- FONTS -->
 	<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500italic,700,500,700italic,900,900italic' rel='stylesheet' type='text/css'>
 	<link href="css/font-awesome.min.css" rel="stylesheet" type='text/css'>
     
-	<!-- SCRIPTS -->
 	<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
     <!--[if IE]><html class="ie" lang="en"> <![endif]-->
 	
@@ -37,30 +34,22 @@
 	<script src="js/jquery.BlackAndWhite.js"></script>
 	<script src="js/myscript.js" type="text/javascript"></script>
 	<script>
-		
-		//PrettyPhoto
 		jQuery(document).ready(function() {
 			$("a[rel^='prettyPhoto']").prettyPhoto();
 		});
-		
-		//BlackAndWhite
+
 		$(window).load(function(){
 			$('.client_img').BlackAndWhite({
-				hoverEffect : true, // default true
-				// set the path to BnWWorker.js for a superfast implementation
+				hoverEffect : true,
 				webworkerPath : false,
-				// for the images with a fluid width and height 
 				responsive:true,
-				// to invert the hover effect
 				invertHoverEffect: false,
-				// this option works only on the modern browsers ( on IE lower than 9 it remains always 1)
 				intensity:1,
-				speed: { //this property could also be just speed: value for both fadeIn and fadeOut
-					fadeIn: 300, // 200ms for fadeIn animations
-					fadeOut: 300 // 800ms for fadeOut animations
+				speed: {
+					fadeIn: 300,
+					fadeOut: 300
 				},
 				onImageReady:function(img) {
-					// this callback gets executed anytime an image is converted
 				}
 			});
 		});
@@ -70,36 +59,22 @@
 </head>
 <body>
 
-<!-- PRELOADER -->
 <!-- <img id="preloader" src="images/preloader.gif" alt="" /> -->
-<!-- //PRELOADER -->
 <div class="preloader_hide">
-
-	<!-- PAGE -->
 	<div id="page">
-	
-		<!-- HEADER -->
 		<header>
-			
-			<!-- MENU BLOCK -->
 			<div class="menu_block">
-			
-				<!-- CONTAINER -->
 				<div class="container clearfix">
-					
-					<!-- LOGO -->
 					<div class="logo pull-left">
-						<a href="index.html" ><span class="b1">w</span><span class="b2">h</span><span class="b3">i</span><span class="b4">t</span><span class="b5">e</span></a>
-					</div><!-- //LOGO -->
-					
-					<!-- SEARCH FORM - ->
+						<a href="index.html"><span class="b1">w</span><span class="b2">h</span><span class="b3">i</span><span class="b4">t</span><span class="b5">e</span></a>
+					</div>
+					<!--
 					<div id="search-form" class="pull-right">
 						<form method="get" action="#">
 							<input type="text" name="Search" value="Search" onFocus="if (this.value == 'Search') this.value = '';" onBlur="if (this.value == '') this.value = 'Search';" />
 						</form>
-					</div><!- - SEARCH FORM -->
-					
-					<!-- MENU -->
+					</div>
+					-->
 					<div class="pull-right">
 						<nav class="navmenu center">
 							<ul>
@@ -119,16 +94,12 @@
 								</li>
 							</ul>
 						</nav>
-					</div><!-- //MENU -->
-				</div><!-- //MENU BLOCK -->
-			</div><!-- //CONTAINER -->
-		</header><!-- //HEADER -->
+					</div>
+				</div>
+			</div>
+		</header>
 		
-		
-		<!-- HOME -->
 		<section id="home" class="padbot0">
-				
-			<!-- TOP SLIDER -->
 			<div class="flexslider top_slider">
 				<ul class="slides">
 					<li class="slide1">
@@ -175,20 +146,12 @@
 					<li><img src="images/backgrounds/3.jpg" alt="" /></li>
 					<li><img src="images/backgrounds/4.jpg" alt="" /></li>
 				</ul>
-			</div><!-- //TOP SLIDER -->
-		</section><!-- //HOME -->
+			</div>
+		</section>
 		
-		
-		<!-- ABOUT -->
 		<section id="about">
-			
-			<!-- SERVICES -->
 			<div class="services_block padbot40" data-appear-top-offset="-200" data-animated="fadeInUp">
-				
-				<!-- CONTAINER -->
 				<div class="container">
-				
-					<!-- ROW -->
 					<div class="row">
 						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-ss-12 margbot30">
 							<a class="services_item" href="javascript:void(0);" >
@@ -214,17 +177,11 @@
 								<span>Hour and great support template. You can always ask a question and we will help you.</span>
 							</a>
 						</div>
-					</div><!-- //ROW -->
-				</div><!-- //CONTAINER -->
-			</div><!-- //SERVICES -->
-			
-			<!-- CLEAN CODE -->
+					</div>
+				</div>
+			</div>
 			<div class="cleancode_block">
-
-				<!-- CONTAINER -->
 				<div class="container" data-appear-top-offset="-200" data-animated="fadeInUp">
-					
-					<!-- CASTOM TAB -->
 					<div id="myTabContent" class="tab-content">
 						<div class="tab-pane fade in active clearfix" id="tab1">
 							<p class="title"><b>Clean</b> Code</p>
@@ -258,19 +215,12 @@
 						<li><a class="i4" href="#tab4" data-toggle="tab" ><i></i><span>Documentation</span></a></li>
 						<li><a class="i5" href="#tab5" data-toggle="tab" ><i></i><span>Calidad</span></a></li>
 						<li><a class="i6" href="#tab6" data-toggle="tab" ><i></i><span>Support</span></a></li>
-					</ul><!-- CASTOM TAB -->
-				</div><!-- //CONTAINER -->
-			</div><!-- //CLEAN CODE -->
-			
-			<!-- MULTI PURPOSE - ->
+					</ul>
+				</div>
+			</div>
 			<div class="purpose_block">
-				
-				<!- - CONTAINER - ->
 				<div class="container">
-					
-					<!- - ROW - ->
 					<div class="row">
-					
 						<div class="col-lg-7 col-md-7 col-sm-7" data-appear-top-offset="-200" data-animated="fadeInLeft">
 							<h2><b>Multi-purpose</b> WordPress Theme</h2>
 							<p>We tried to make very high-quality product and so our code is very neat and clean. Whatever anyone could improve and modify the template to your liking.</p>
@@ -282,26 +232,17 @@
 						<div class="col-lg-5 col-md-5 col-sm-5 ipad_img_in" data-appear-top-offset="-200" data-animated="fadeInRight">
 							<img class="ipad_img1" src="images/img1.png" alt="" />
 						</div>
-					</div><!- - //ROW - ->
-				</div><!- - //CONTAINER - ->
-			</div><!- - //MULTI PURPOSE -->
-		</section><!-- //ABOUT -->
+					</div>
+				</div>
+			</div> -->
+		</section>
 		
-		
-		<!-- PROJECTS -->
 		<section id="projects" class="padbot20">
-		
-			<!-- CONTAINER -->
 			<div class="container">
 				<h2><b>Even</b>tos</h2>
-			</div><!-- //CONTAINER -->
-			
-				
+			</div>
 			<div class="projects-wrapper" data-appear-top-offset="-200" data-animated="fadeInUp">
-				<!-- PROJECTS SLIDER -->
 				<div class="owl-demo owl-carousel projects_slider">
-					
-					<!-- work1 -->
 					<div class="item">
 						<div class="work_item">
 							<div class="work_img">
@@ -315,9 +256,7 @@
 								</div>
 							</div>
 						</div>
-					</div><!-- //work1 -->
-					
-					<!-- work2 -->
+					</div>
 					<div class="item">
 						<div class="work_item">
 							<div class="work_img">
@@ -331,9 +270,7 @@
 								</div>
 							</div>
 						</div>
-					</div><!-- //work2 -->
-					
-					<!-- work3 -->
+					</div>
 					<div class="item">
 						<div class="work_item">
 							<div class="work_img">
@@ -347,9 +284,7 @@
 								</div>
 							</div>
 						</div>
-					</div><!-- //work3 -->
-					
-					<!-- work4 -->
+					</div>
 					<div class="item">
 						<div class="work_item">
 							<div class="work_img">
@@ -363,9 +298,7 @@
 								</div>
 							</div>
 						</div>
-					</div><!-- //work4 -->
-					
-					<!-- work5 -->
+					</div>
 					<div class="item">
 						<div class="work_item">
 							<div class="work_img">
@@ -379,9 +312,7 @@
 								</div>
 							</div>
 						</div>
-					</div><!-- //work5 -->
-					
-					<!-- work6 -->
+					</div>
 					<div class="item">
 						<div class="work_item">
 							<div class="work_img">
@@ -395,9 +326,7 @@
 								</div>
 							</div>
 						</div>
-					</div><!-- //work6 -->
-					
-					<!-- work7 -->
+					</div>
 					<div class="item">
 						<div class="work_item">
 							<div class="work_img">
@@ -411,18 +340,13 @@
 								</div>
 							</div>
 						</div>
-					</div><!-- //work7 -->
-				</div><!-- //PROJECTS SLIDER -->
+					</div>
+				</div>
 			</div>
 			
-			
-			<!-- OUR CLIENTS -->
-			<!-- <div class="our_clients">
-			
-				<!- - CONTAINER - ->
+			<!--
+			<div class="our_clients">
 				<div class="container" data-appear-top-offset="-200" data-animated="fadeInUp">
-					
-					<!- - ROW - ->
 					<div class="row">
 						<div class="col-lg-2 col-md-2 col-sm-2 client_img">
 							<img src="images/clients/1.jpg" alt="" />
@@ -442,26 +366,36 @@
 						<div class="col-lg-2 col-md-2 col-sm-2 client_img">
 							<img src="images/clients/6.jpg" alt="" />
 						</div>
-					</div><!- - //ROW - ->
-				</div><!- - CONTAINER - ->
-			</div><!- - //OUR CLIENTS - -> -->
-		</section><!-- //PROJECTS -->
+					</div> 
+				</div> 
+			</div>
+			-->
+		</section> 
 		
-		
-		<!-- TEAM -->
 		<section id="team">
-		
-			<!-- CONTAINER -->
 			<div class="container">
 				<h2><b>Sta</b>ff</h2>
-				
-				<!-- ROW -->
 				<div class="row" data-appear-top-offset="-200" data-animated="fadeInUp">
-						
-					<!-- TEAM SLIDER -->
 					<div class="owl-demo owl-carousel team_slider">
 				
-						<!-- crewman1 -->
+						<div class="item">
+							<div class="crewman_item">
+								<div class="crewman">
+									<img src="images/team/3.jpg" alt="" />
+								</div>
+								<div class="crewman_descr center">
+									<div class="crewman_descr_cont">
+										<p>Example</p>
+										<span>Manager</span>
+									</div>
+								</div>
+								<div class="crewman_social">
+									<a href="javascript:void(0);" ><i class="fa fa-twitter"></i></a>
+									<a href="javascript:void(0);" ><i class="fa fa-facebook-square"></i></a>
+								</div>
+							</div>
+						</div>
+
 						<div class="item">
 							<div class="crewman_item">
 								<div class="crewman">
@@ -478,9 +412,8 @@
 									<a href="javascript:void(0);" ><i class="fa fa-facebook-square"></i></a>
 								</div>
 							</div>
-						</div><!-- crewman1 -->
+						</div>
 						
-						<!-- crewman2 -->
 						<div class="item">
 							<div class="crewman_item">
 								<div class="crewman">
@@ -498,28 +431,9 @@
 									<a href="javascript:void(0);" ><i class="fa fa-facebook-square"></i></a>
 								</div>
 							</div>
-						</div><!-- crewman1 -->
+						</div>
 						
-						<!-- <!- - crewman3 - ->
-						<div class="item">
-							<div class="crewman_item">
-								<div class="crewman">
-									<img src="images/team/3.jpg" alt="" />
-								</div>
-								<div class="crewman_descr center">
-									<div class="crewman_descr_cont">
-										<p>Kate Smith</p>
-										<span>Manager</span>
-									</div>
-								</div>
-								<div class="crewman_social">
-									<a href="javascript:void(0);" ><i class="fa fa-twitter"></i></a>
-									<a href="javascript:void(0);" ><i class="fa fa-facebook-square"></i></a>
-								</div>
-							</div>
-						</div><!- - crewman3 - ->
-						
-						<!- - crewman4 - ->
+						<!--
 						<div class="item">
 							<div class="crewman_item">
 								<div class="crewman">
@@ -527,8 +441,8 @@
 								</div>
 								<div class="crewman_descr center">
 									<div class="crewman_descr_cont">
-										<p>Peter Parker</p>
-										<span>Manager</span>
+										<p></p>
+										<span></span>
 									</div>
 								</div>
 								<div class="crewman_social">
@@ -536,9 +450,8 @@
 									<a href="javascript:void(0);" ><i class="fa fa-facebook-square"></i></a>
 								</div>
 							</div>
-						</div><!- - crewman4 - ->
+						</div>
 						
-						<!- - crewman5 - ->
 						<div class="item">
 							<div class="crewman_item">
 								<div class="crewman">
@@ -546,8 +459,8 @@
 								</div>
 								<div class="crewman_descr center">
 									<div class="crewman_descr_cont">
-										<p>Jim Moss</p>
-										<span>Designer</span>
+										<p></p>
+										<span></span>
 									</div>
 								</div>
 								<div class="crewman_social">
@@ -556,9 +469,8 @@
 									<a href="javascript:void(0);" ><i class="fa fa-facebook-square"></i></a>
 								</div>
 							</div>
-						</div><!- - crewman5 - ->
+						</div>
 						
-						<!- - crewman6 - ->
 						<div class="item">
 							<div class="crewman_item">
 								<div class="crewman">
@@ -566,8 +478,8 @@
 								</div>
 								<div class="crewman_descr center">
 									<div class="crewman_descr_cont">
-										<p>John Marks</p>
-										<span>Designer</span>
+										<p></p>
+										<span></span>
 									</div>
 								</div>
 								<div class="crewman_social">
@@ -575,9 +487,8 @@
 									<a href="javascript:void(0);" ><i class="fa fa-facebook-square"></i></a>
 								</div>
 							</div>
-						</div><!- - crewman6 - ->
+						</div>
 						
-						<!- - crewman7 - ->
 						<div class="item">
 							<div class="crewman_item">
 								<div class="crewman">
@@ -585,8 +496,8 @@
 								</div>
 								<div class="crewman_descr center">
 									<div class="crewman_descr_cont">
-										<p>Joe Mades</p>
-										<span>Developer</span>
+										<p></p>
+										<span></span>
 									</div>
 								</div>
 								<div class="crewman_social">
@@ -594,9 +505,8 @@
 									<a href="javascript:void(0);" ><i class="fa fa-facebook-square"></i></a>
 								</div>
 							</div>
-						</div><!- - crewman7 - ->
+						</div>
 						
-						<!- - crewman8 - ->
 						<div class="item">
 							<div class="crewman_item">
 								<div class="crewman">
@@ -604,8 +514,8 @@
 								</div>
 								<div class="crewman_descr center">
 									<div class="crewman_descr_cont">
-										<p>Julia Anderson</p>
-										<span>Developer</span>
+										<p></p>
+										<span></span>
 									</div>
 								</div>
 								<div class="crewman_social">
@@ -614,47 +524,32 @@
 									<a href="javascript:void(0);" ><i class="fa fa-facebook-square"></i></a>
 								</div>
 							</div>
-						</div><!- - crewman8 - -> -->
-					</div><!-- TEAM SLIDER -->
-				</div><!-- //ROW -->
-			</div><!-- //CONTAINER -->
-		</section><!-- //TEAM -->
+						</div>
+						-->
+					</div>
+				</div>
+			</div>
+		</section>
 		
-		
-		<!-- NEWS -->
 		<section id="news">
-		
-			<!-- CONTAINER -->
 			<div class="container">
 				<h2><b>Clients</b> say about us</h2>
-				
-				<!-- TESTIMONIALS -->
 				<div class="testimonials" data-appear-top-offset="-200" data-animated="fadeInUp">
-						
-					<!-- TESTIMONIALS SLIDER -->
 					<div class="owl-demo owl-carousel testim_slider">
-						
-						<!-- TESTIMONIAL1 -->
 						<div class="item">
 							<div class="testim_content">“There is nothing scary in the darkness, if you encounter it face-to-face. The inevitable price we pay for | happiness is eternal fear to lose it. When you start thinking a lot about your past, it becomes your present and you can't see your future without it.”</div>
 							<div class="testim_author">—  Anna Balashova, <b>Philosopher</b></div>
 						</div><!-- TESTIMONIAL1 -->
-						
-						<!-- TESTIMONIAL2 -->
 						<div class="item">
 							<div class="testim_content">“There is nothing scary in the darkness, if you encounter it face-to-face. The inevitable price we pay for our happiness is eternal fear to lose it. When you start thinking a lot about your past, it becomes your present and you can't see your future without it.”</div>
 							<div class="testim_author">—  Anna Balashova, <b>Philosopher</b></div>
 						</div><!-- TESTIMONIAL2 -->
-						
-						<!-- TESTIMONIAL3 -->
 						<div class="item">
 							<div class="testim_content">“There is nothing scary in the darkness, if you encounter it face-to-face. The inevitable price we pay for our happiness is eternal fear to lose it. When you start thinking a lot about your past, it becomes your present and you can't see your future without it.”</div>
 							<div class="testim_author">—  Anna Balashova, <b>Philosopher</b></div>
 						</div><!-- TESTIMONIAL3 -->
 					</div><!-- TESTIMONIALS SLIDER -->
 				</div><!-- //TESTIMONIALS -->
-				
-				<!-- RECENT POSTS -->
 				<div class="row recent_posts" data-appear-top-offset="-200" data-animated="fadeInUp">
 					<div class="col-lg-4 col-md-4 col-sm-4 padbot30 post_item_block">
 						<div class="post_item">
