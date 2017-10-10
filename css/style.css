@@ -1168,12 +1168,12 @@ footer h4 {color:#fff;}
 }
 .social li a {
 	display:block;
-	width:50px;
+	width:140px;
 	height:50px;
-	/*border:1px solid #242424;*/
+	border:1px solid #242424;
 	text-align:center;
 	line-height:46px;
-	font-size:23px;
+	font-size:20px;
 	color:#333;
 }
 .social li a:hover {
@@ -2059,7 +2059,7 @@ input[type="color"]:focus {
     position: absolute;
     background-color: #f9f9f9;
     /*min-width: 160px;*/
-    width: 200px;
+    width: 140px;
     height: 150px;
     z-index: 1;
 }
