@@ -61,7 +61,10 @@ jQuery(document).ready(function() {
 		jQuery('.menu_toggler, .navmenu ul li a').click(function(){
 			jQuery('header .navmenu').slideToggle(300);
 		});
+	}else{
+		
 	}
+
 		
 	// if single_page
 	if (jQuery("#page").hasClass("single_page")) {			

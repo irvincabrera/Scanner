@@ -1170,15 +1170,15 @@ footer h4 {color:#fff;}
 	display:block;
 	width:150px;
 	height:50px;
-	border:1px solid #242424;
+	border:1px solid #ffffff;
 	text-align:center;
 	line-height:46px;
 	font-size:20px;
-	color:#333;
+	color:#ffffff;
 }
 .social li a:hover {
-	color:#ccc;
-	border-color:#ccc;
+	color:#000000;
+	border-color:#72E000;
 }
 
 
@@ -2057,7 +2057,7 @@ input[type="color"]:focus {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: #FF7900;
     /*min-width: 160px;*/
     width: 150px;
     height: 150px;
@@ -2071,12 +2071,12 @@ input[type="color"]:focus {
     display: block;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover {background-color: #72E000}
 
 .dropdown:hover .dropdown-content {
     display: block;
 }
 
 .dropdown:hover .dropbtn {
-    background-color: #3e8e41;
+    background-color: #000000;
 }
