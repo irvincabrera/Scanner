@@ -208,7 +208,7 @@ blockquote:before {content:'“'; position:absolute; left:15px; top:13px; font-s
 /* __________ breadcrumb __________ */
 .breadcrumbs_block {
 	padding:81px 0;
-	background-image:url(../images/clean_code_bg.jpg);
+	background-image:url(../images/pics/clean_code_bg.jpg);
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -239,7 +239,7 @@ blockquote:before {content:'“'; position:absolute; left:15px; top:13px; font-s
 /*-----------------------------------------------------------------------------------*/
 .cabeza{
 	text-align:center;
-	background:url(../images/pw_maze_black_2X.png) left top repeat;
+	background:url(../images/pics/pw_maze_black_2X.png) left top repeat;
 	padding:5px 0;
 	width:70px;
 }
@@ -465,7 +465,7 @@ header {
 /* __________ Clean Code __________ */
 .cleancode_block {
 	padding:96px 0 78px;
-	background-image:url(../images/clean_code_bg.jpg);
+	background-image:url(../images/pics/clean_code_bg.jpg);
 	background-size:cover;
 	background-position:0 0;
 	background-attachment:fixed !important;
@@ -544,12 +544,12 @@ header {
 	transition: transform 0.2s ease-in-out; 
 	-webkit-transition: -webkit-transform 0.2s ease-in-out;
 }
-.cleancode_block .nav-tabs li a.i1 i {background-image:url(../images/i1.png);}
-.cleancode_block .nav-tabs li a.i2 i {background-image:url(../images/i2.png);}
-.cleancode_block .nav-tabs li a.i3 i {background-image:url(../images/i3.png);}
-.cleancode_block .nav-tabs li a.i4 i {background-image:url(../images/i4.png);}
-.cleancode_block .nav-tabs li a.i5 i {background-image:url(../images/i5.png);}
-.cleancode_block .nav-tabs li a.i6 i {background-image:url(../images/i6.png);}
+.cleancode_block .nav-tabs li a.i1 i {background-image:url(../images/pics/i1.png);}
+.cleancode_block .nav-tabs li a.i2 i {background-image:url(../images/pics/i2.png);}
+.cleancode_block .nav-tabs li a.i3 i {background-image:url(../images/pics/i3.png);}
+.cleancode_block .nav-tabs li a.i4 i {background-image:url(../images/pics/i4.png);}
+.cleancode_block .nav-tabs li a.i5 i {background-image:url(../images/pics/i5.png);}
+.cleancode_block .nav-tabs li a.i6 i {background-image:url(../images/pics/i6.png);}
 
 .nav-tabs li a:hover,
 .nav-tabs li a:focus {
@@ -721,7 +721,7 @@ header {
 	height:36px;
 	margin-left:-30px;
 	opacity:0;
-	background-image:url(../images/zoom.png);
+	background-image:url(../images/pics/zoom.png);
 	background-repeat:no-repeat;
 	background-position:0 0;
 	background-size:100% auto;
@@ -733,7 +733,7 @@ header {
 	bottom:56px;
 	opacity:1;
 }
-.work_item a.zoom:hover {background-image:url(../images/zoom_h.png);}
+.work_item a.zoom:hover {background-image:url(../images/pics/zoom_h.png);}
 
 
 
@@ -817,7 +817,7 @@ ul.project_info li span {color:#979797;}
 /*-----------------------------------------------------------------------------------*/
 #staff {
 	padding:75px 0 100px;
-	background-image:url(../images/team_bg.jpg);
+	background-image:url(../images/pics/team_bg.jpg);
 	background-size:cover;
 	background-attachment:fixed !important;
 }
@@ -979,7 +979,7 @@ ul.project_info li span {color:#979797;}
 	height:36px;
 	margin:0 0 -18px -30px;
 	opacity:0;
-	background-image:url(../images/zoom.png);
+	background-image:url(../images/pics/zoom.png);
 	background-repeat:no-repeat;
 	background-position:0 0;
 	background-size:100% auto;
@@ -991,7 +991,7 @@ ul.project_info li span {color:#979797;}
 	bottom:50%;
 	opacity:1;
 }
-.post_item_img a.link:hover {background-image:url(../images/zoom_h.png);}
+.post_item_img a.link:hover {background-image:url(../images/pics/zoom_h.png);}
 
 
 /* __________ Recent Posts Small __________ */
@@ -1314,7 +1314,7 @@ input[type="color"]:focus {
 	height:36px;
 	margin:0 0 -30px -30px;
 	opacity:0;
-	background-image:url(../images/zoom.png);
+	background-image:url(../images/pics/zoom.png);
 	background-repeat:no-repeat;
 	background-position:0 0;
 	background-size:100% auto;
@@ -1326,7 +1326,7 @@ input[type="color"]:focus {
 	bottom:50%;
 	opacity:1;
 }
-.blog_post a.zoom:hover {background-image:url(../images/zoom_h.png);}
+.blog_post a.zoom:hover {background-image:url(../images/pics/zoom_h.png);}
 
 .blog_post_descr hr {
 	border-color:#e9e9e9;
