@@ -1091,7 +1091,7 @@ footer {
 	width:100%;
 	padding:60px 0 10px;
 	color:#999;
-	background-color: #FF7900;
+	background-color: #FF7514;
 	transform: translateX(-50%);
 	-ms-transform: translateX(-50%);
 	-webkit-transform: translateX(-50%);
@@ -2043,7 +2043,7 @@ input[type="color"]:focus {
 }
 
 .dropbtn {
-    background-color: #4CAF50;
+    background-color: #287233;
     color: white;
     padding: 16px;
     font-size: 16px;
@@ -2073,7 +2073,7 @@ input[type="color"]:focus {
     display: block;
 }
 
-.dropdown-content a:hover {background-color: #72E000}
+.dropdown-content a:hover {background-color: #287233}
 
 .dropdown:hover .dropdown-content {
     display: block;
