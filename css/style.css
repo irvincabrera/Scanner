@@ -675,7 +675,7 @@ header {
 	height:100%;
 	text-align:center;
 	opacity:0;
-	background-color:rgba(0,0,0,0.8);
+	background-color:black;
 	transition: all 0.3s ease-in-out; 
 	-webkit-transition: all 0.3s ease-in-out;
 }
